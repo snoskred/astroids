@@ -4,7 +4,7 @@ from constants import LINE_WIDTH, PLAYER_RADIUS
 
 
 class Player(CircleShape):
-    def __init__(self, x: float, y: float, radius: float) -> None:
+    def __init__(self, x: float, y: float) -> None:
         super().__init__(x, y, PLAYER_RADIUS)
         self.rotation = 0
 
